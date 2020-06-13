@@ -99,50 +99,6 @@
 		</div>
 
 	<button onclick="window.location.href = './Samarth_resume251.pdf';"> View sResume</button>
-	<div>Country: <span id="country"></span></div>
-    <div>State: <span id="state"></span></div>
-        <div>City: <span id="city"></span></div>
-	    <div>Latitude: <span id="latitude"></span></div>
-	        <div>Longitude: <span id="longitude"></span></div>
-		    <div>IP: <span id="ip"></span></div>
-    <script>
-      $.getJSON('https://geolocation-db.com/json/')
-         .done (function(location) {
-            $('#country').html(location.country_name);
-            $('#state').html(location.state);
-            $('#city').html(location.city);
-            $('#latitude').html(location.latitude);
-            $('#longitude').html(location.longitude);
-            $('#ip').html(location.IPv4);
-         });
-   
-      $(document).ready(function() {
-	        $.ajax({
-		    type: "POST",
-			        url: "https://dizziest-babies.000webhostapp.com/",
-				    data: { "name" : "somedata" }
-				       });
-		})
- </script>
-    <script>
-      $.getJSON('https://geolocation-db.com/json/')
-         .done (function(location) {
-            $('#country').html(location.country_name);
-            $('#state').html(location.state);
-            $('#city').html(location.city);
-            $('#latitude').html(location.latitude);
-            $('#longitude').html(location.longitude);
-            $('#ip').html(location.IPv4);
-         });
-   
-      $(document).ready(function() {
-	        $.ajax({
-		    type: "POST",
-			        url: "https://dizziest-babies.000webhostapp.com/",
-				    data: { "name" : "somedata" }
-				       });
-		})
- </script>
 	</body>
 </html>
 
