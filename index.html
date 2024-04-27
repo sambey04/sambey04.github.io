@@ -1,105 +1,136 @@
-<html>
-	<head>
-		<title>samarth</title>
-	
-		<metame="viewport" content="initial-scale=1.0, user-scalable=no"/>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<style>
-			* {
-				box-sizing: border-box;
-			}
-			body {
-				font-family: monospace, monospace;
-				font-size: 0.9em;
-			}
-			div.container {
-				max-width: 42em;
-			}
-			h1, h2, h3, p {
-				font-size: 1em;
-				margin-top: 0;
-				margin-bottom: 0;
-			}
-			.command, .argument {
-				font-weight: bold;
-			}
-			div.container div h1 {
-				font-weight: normal;
-			}
-			div, p.indented {
-				margin-bottom: 1em;
-			}
-			div.section div {
-				margin-left: 4em;
-			}
-			p.indented {
-				margin-left: 2em;
-			}
-			a {
-				color: black;
-				font-weight: bold;
-				text-decoration: none;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div>
-				<h1>samarth</h1>
-			</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Batra's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
-			<div class="section">
-				<h2>NAME</h2>
-				<div>
-					<p>samarth — Samarth Batra</p>
-				</div>
-			</div>
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-			<div class="section">
-			</div>
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-			<div class="section">
-				<h2>DESCRIPTION</h2>
-				<div>
-					<p>Just a funny human who loves to  code and is a Linux enthusiast. Mainly code in Python but does want to learn more languages.</p>
-				</div>
-			</div>
+        h1 {
+            margin-top: 0;
+        }
 
-			<div class="section">
-				<h2>OPTIONS</h2>
-				<div>
-					<h3>--please</h3>
-					<p class="indented">The magic incantation. Using sudo is not supported. </p>
-				</div>
-			</div>
+        section {
+            margin-bottom: 20px;
+        }
 
-			<div class="section">
-				<h2>ALSO KNOWN AS</h2>
-				<div>
-					<p>sambey</p>
-				</div>
-			</div>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-			<div class="section">
-				<h2>ENVIRONMENT VARIABLES</h2>
-				<div>
-					<h3>HOME</h3>
-					<p class="indented">India</p>
-				</div>
-			</div>
+        ul li {
+            margin-bottom: 10px;
+        }
 
-			<div class="section">
-				<h2>SEE ALSO</h2>
-				<div>
-					<p><a href="https://github.com/sambey04">github</a>(4), <a href="mailto:samarth44@gmail.com">samarthh44@gmail.com</a>(4)</p>
-				</div>
-			</div>
-		</div>
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Samarth Batra</h1>
+        <p>Email: <a href="mailto:samarthh44@gmail.com">samarthh44@gmail.com</a> | Phone: 8171813838</p>
+    </header>
 
-	<button onclick="window.location.href = './Samarth_resume251.pdf';"> View sResume</button>
-	</body>
+    <main>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>B.Tech in Computer Science - University of Petroleum and Energy Studies, India (June 2021)</li>
+                <li>XII Boards - D.G.V Sen. Sec. School, Rohtak, India (2016-2017)</li>
+                <li>Class X CGPA: 9.4 - D.G.V Sen. Sec. School, Rohtak, India (2014-2015)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <h3>Amazon (Software Development Engineer)</h3>
+            <p>May 2022 - Present | Bengaluru, India</p>
+            <ul>
+                <li>Designed and developed features.</li>
+                <li>Implemented novel API solutions.</li>
+                <li>Integrated application inventory management services.</li>
+            </ul>
+
+            <h3>Cognizant (Software Engineer)</h3>
+            <p>Jan 2021 - May 2022 | Gurugram, India</p>
+            <ul>
+                <li>Set up continuous integration and deployment pipelines using Jenkins and AWS.</li>
+                <li>Ensured software reliability through effective testing.</li>
+            </ul>
+
+            <h3>Across The GlobeHandlingATG.world (Internship)</h3>
+            <p>June 2020 – Aug 2020 | Bengaluru, India</p>
+            <ul>
+                <li>Conducted API testing and automation, including identifying and fixing security vulnerabilities.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <h3>Small Scale Hypertextual Web Search Engine</h3>
+            <ul>
+                <li>Implemented a web crawler from scratch for indexing using Python and MongoDB.</li>
+                <li>Integrated web app with MongoDB and developed a ranking algorithm for search results.</li>
+            </ul>
+
+            <h3>Typing Tutor</h3>
+            <ul>
+                <li>Developed a typing tutor application to improve typing accuracy dynamically.</li>
+                <li>Analyzed user mistakes to dynamically generate practice material.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, C, C++</li>
+                <li>Tools: Postman, Burp Suite, Jenkins, Docker, AWS</li>
+                <li>Operating Systems: Linux</li>
+                <li>Other: Arduino</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certificates</h2>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/14uDFeMW3x-BPsKrDB-OugA2gMVMqc1Uy/view">NPTEL - Ethical Hacking and Networks</a></li>
+                <li><a href="https://drive.google.com/file/d/11jgs72J4PMaxZWDcNFDJFWyi8N6lDH6S/view">NPTEL - Introduction to Algorithms and Analysis</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Samarth Batra
+    </footer>
+</body>
 </html>
-
-
